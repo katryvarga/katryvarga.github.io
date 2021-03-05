@@ -1,0 +1,147 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 58, 58) 0%,
+    #d0d0d0 50%,
+    rgb(145, 58, 58)
+  );
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-top: 10%;
+  align-content: center;
+}
+
+#slide {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 600px;
+  box-shadow: 9px 9px 5px 0px rgba(50, 50, 50, 0.83);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 50px;
+  background-color: rgb(191, 191, 191);
+}
+
+#rightButton {
+  transform: rotateY(180deg);
+}
+
+#photoBox {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+}
+
+#iconGallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 650px;
+}
+
+.notSelected {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border: 5px solid rgb(136, 18, 18);
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+.selected {
+  object-fit: cover;
+  height: 53px;
+  width: 53px;
+  margin: 6px;
+  margin-top: 1px;
+  border: 5px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+#icon:hover {
+  cursor: pointer;
+  margin-top: 1px;
+  -webkit-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+}
+
+#description {
+  order: 2;
+  margin-top: -70px;
+  background-color: rgba(46, 4, 4, 0.6);
+  height: 100px;
+  overflow: hidden;
+}
+
+.photoTitle {
+  font-size: 30px;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: white;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.photoDescription {
+  max-width: 400px;
+  color: rgb(247, 198, 198);
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+#picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  height: 400px;
+  order: 1;
+}
+
+.iconDiv {
+  display: flex;
+  justify-content: center;
+}
+.visible {
+  font-family: 'Akaya Telivigala', cursive;
+  text-transform: uppercase;
+  display: inline;
+  position: absolute;
+  background-color: rgba(46, 4, 4, 0.6);
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  margin-top: -30px;
+}
+.notVisible {
+  display: none;
+}
+
+#middlePicture {
+  height: 700px;
+  width: 700px;
+  margin-top: 50px;
+  position: fixed;
+  box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.75);
+}
