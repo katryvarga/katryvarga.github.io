@@ -1,6 +1,6 @@
 export let photoList = [
   {
-    url: '/photos2/1.JPG',
+    url: '/photos2/1.jpg',
     title: 'Mátra 2021',
     descr: 'Nimród, Boti, Nóri',
   },
@@ -10,7 +10,7 @@ export let photoList = [
     descr: 'Nimród, Boti, Nóri',
   },
   {
-    url: '/photos2/3.JPEG',
+    url: '/photos2/3.jpeg',
     title: 'Nimród',
     descr: 'Nimród 6. születésnap',
   },
@@ -20,7 +20,7 @@ export let photoList = [
     descr: 'Boti 4. születésnap',
   },
   {
-    url: '/photos2/5.JPG',
+    url: '/photos2/5.jpg',
     title: 'Nóra',
     descr: 'Nóri 1. születésnap',
   },
@@ -35,7 +35,7 @@ export let photoList = [
     descr: 'Jó reggelt!',
   },
   {
-    url: '/photos2/8.JPEG',
+    url: '/photos2/8.jpeg',
     title: 'Sakk 2020',
     descr: 'Nimród, Boti',
   },
